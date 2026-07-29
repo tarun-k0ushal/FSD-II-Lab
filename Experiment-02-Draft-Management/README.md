@@ -65,23 +65,21 @@ Experiment-02-Draft-Management
 
 ## Screenshots
 
-### Home
+## Home
 
-screenshot/home.png
+![Home](./screenshot/home.png)
 
-### Save Draft
+## Save Draft
 
-screenshot/save-draft.png
+![Save Draft](./screenshot/save-draft.png)
 
-### Edit Draft
+## Edit Draft
 
-screenshot/edit-draft.png
+![Edit Draft](./screenshot/edit-draft.png)
 
-### Delete Draft
+## Delete Draft
 
-screenshot/delete-draft.png
-
----
+![Delete Draft](./screenshot/delete-draft.png)
 
 ## Expected Outcome
 
