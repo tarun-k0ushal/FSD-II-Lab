@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import PlatformSelector from "./components/PlatformSelector";
 import PostEditor from "./components/PostEditor";
 import CharacterCounter from "./components/CharacterCounter";
+import ValidationPanel from "./components/ValidationPanel";
 
 import "./styles/App.css";
 
@@ -29,6 +30,10 @@ function App() {
         selectedPlatforms={selectedPlatforms}
         post={post}
       />
+      <ValidationPanel
+        selectedPlatforms={selectedPlatforms}
+        post={post}
+     />
     </div>
   );
 }
