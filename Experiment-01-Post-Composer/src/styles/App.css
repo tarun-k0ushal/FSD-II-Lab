@@ -75,3 +75,18 @@
   width: 18px;
   height: 18px;
 }
+.post-textarea {
+  width: 100%;
+  min-height: 180px;
+  resize: vertical;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 15px;
+}
+
+.post-textarea:focus {
+  border-color: #2563eb;
+}
