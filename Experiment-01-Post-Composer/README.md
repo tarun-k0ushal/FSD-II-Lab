@@ -1,16 +1,86 @@
-# React + Vite
+# Experiment 1.1.1 – Dynamic Post Composer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Aim
 
-Currently, two official plugins are available:
+To design and develop a dynamic post composer interface supporting multiple platforms with constraint validation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Objectives
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Understand multi-platform content handling.
+- Implement real-time validation mechanisms.
+- Design responsive and user-friendly UI components.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Software Requirements
+
+- React.js
+- Node.js
+- npm
+- Visual Studio Code
+- Google Chrome
+
+---
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+---
+
+## Features
+
+- Multiple platform selection
+- Dynamic post editor
+- Character counter
+- Platform-specific validation
+- Media attachment
+- Publish button
+- Responsive UI
+
+---
+
+## Screenshots
+
+### Home
+
+![Home](screenshots/home.png)
+
+---
+
+### Validation Success
+
+![Validation Success](screenshots/validation-success.png)
+
+---
+
+### Validation Error
+
+![Validation Error](screenshots/validation-error.png)
+
+---
+
+### Media Upload
+
+![Media Upload](screenshots/media-upload.png)
+
+---
+
+## Expected Outcome
+
+- Working post composer interface
+- Platform-specific validation
+- Real-time feedback
+- Media attachment support
+
+---
+
+## Conclusion
+
+Successfully designed and implemented a dynamic multi-platform post composer using React.js with platform-specific validation and responsive UI.

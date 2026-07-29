@@ -5,6 +5,8 @@ import PlatformSelector from "./components/PlatformSelector";
 import PostEditor from "./components/PostEditor";
 import CharacterCounter from "./components/CharacterCounter";
 import ValidationPanel from "./components/ValidationPanel";
+import UploadBox from "./components/UploadBox";
+import PublishButton from "./components/PublishButton";
 
 import "./styles/App.css";
 
@@ -34,6 +36,9 @@ function App() {
         selectedPlatforms={selectedPlatforms}
         post={post}
      />
+     <UploadBox />
+
+     <PublishButton />
     </div>
   );
 }

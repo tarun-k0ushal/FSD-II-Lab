@@ -19,18 +19,9 @@ function CharacterCounter({ selectedPlatforms, post }) {
     <div className="card">
       <h2>Character Counter</h2>
 
-      <p>
-        <strong>Characters:</strong> {count}
-      </p>
-
-      <p>
-        <strong>Limit:</strong>{" "}
-        {limit === Infinity ? "Unlimited" : limit}
-      </p>
-
-      <p>
-        <strong>Remaining:</strong> {remaining}
-      </p>
+    <p><strong>Characters :</strong> {count}</p>
+    <p><strong>Limit :</strong> {limit === Infinity ? "Unlimited" : limit}</p>
+    <p><strong>Remaining :</strong> {remaining}</p>
     </div>
   );
 }
