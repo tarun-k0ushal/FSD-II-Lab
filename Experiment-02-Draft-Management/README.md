@@ -67,19 +67,19 @@ Experiment-02-Draft-Management
 
 ### Home
 
-screenshots/home.png
+screenshot/home.png
 
 ### Save Draft
 
-screenshots/save-draft.png
+screenshot/save-draft.png
 
 ### Edit Draft
 
-screenshots/edit-draft.png
+screenshot/edit-draft.png
 
 ### Delete Draft
 
-screenshots/delete-draft.png
+screenshot/delete-draft.png
 
 ---
 
