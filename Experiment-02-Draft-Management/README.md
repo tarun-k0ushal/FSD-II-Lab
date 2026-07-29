@@ -1,16 +1,94 @@
-# React + Vite
+# Experiment 1.1.2 - Draft Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Aim
 
-Currently, two official plugins are available:
+To implement a draft management system that allows users to save, retrieve, edit and delete post drafts using React frontend state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Objectives
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Manage draft data using React state.
+- Implement CRUD operations.
+- Store drafts using Local Storage.
+- Understand asynchronous UI workflows.
+- Build modular React components.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Vite
+
+---
+
+## Features
+
+- Create Draft
+- View Drafts
+- Edit Draft
+- Delete Draft
+- Auto Save using Local Storage
+- Loading Feedback
+- Responsive UI
+
+---
+
+## Folder Structure
+
+```
+Experiment-02-Draft-Management
+│
+├── public
+├── src
+│   ├── components
+│   │     Header.jsx
+│   │     DraftEditor.jsx
+│   │     DraftList.jsx
+│   │
+│   ├── styles
+│   │     App.css
+│   │     index.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## Screenshots
+
+### Home
+
+screenshots/home.png
+
+### Save Draft
+
+screenshots/save-draft.png
+
+### Edit Draft
+
+screenshots/edit-draft.png
+
+### Delete Draft
+
+screenshots/delete-draft.png
+
+---
+
+## Expected Outcome
+
+Users can create, edit, delete and manage drafts using frontend state. Drafts remain available after refreshing the browser using Local Storage.
+
+---
+
+## Conclusion
+
+The Draft Management System was successfully implemented using React state management. CRUD operations and Local Storage were used to provide a smooth draft management experience.

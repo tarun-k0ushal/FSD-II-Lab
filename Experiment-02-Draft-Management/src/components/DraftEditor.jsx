@@ -3,6 +3,7 @@ function DraftEditor({
   setContent,
   saveDraft,
   isEditing,
+  loading,
 }) {
   return (
     <div className="card">
@@ -18,8 +19,13 @@ function DraftEditor({
       <button
         className="save-btn"
         onClick={saveDraft}
+        disabled={loading}
       >
-        {isEditing ? "Update Draft" : "Save Draft"}
+        {loading
+          ? "Saving..."
+          : isEditing
+          ? "Update Draft"
+          : "Save Draft"}
       </button>
     </div>
   );
