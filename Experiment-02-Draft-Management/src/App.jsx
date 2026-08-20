@@ -64,13 +64,13 @@ const saveDraft = () => {
 
       <Header />
 
-     <DraftEditor
-  content={content}
-  setContent={setContent}
-  saveDraft={saveDraft}
-  isEditing={editingId !== null}
-  loading={loading}
-/>
+        <DraftEditor
+      content={content}
+      setContent={setContent}
+      saveDraft={saveDraft}
+      isEditing={editingId !== null}
+      loading={loading}
+    />
 
       <DraftList
         drafts={drafts}
